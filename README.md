@@ -57,10 +57,10 @@ A organização das missas exige a atuação de diversas pastorais (acolhida, ac
 ## 🛠️ Stack Tecnológico (Sugerido)
 
 > A ser confirmado com a equipe, uma sugestão:
-- Frontend: React / React Native ou Next.js
-- Backend: Node.js (Express) ou Firebase
-- Banco de Dados: Firebase Firestore / MongoDB
-- Autenticação: Firebase Auth ou JWT
+- Frontend: EXPO GO + REACT NATIVE
+- Backend: Node.js (Express)
+- Banco de Dados: Supabase / POSTGREE
+- Autenticação: Supabase Auth ou JWT
 - Notificações: Firebase Cloud Messaging ou integração com WhatsApp API
 
 ## 📌 Status
@@ -68,5 +68,19 @@ A organização das missas exige a atuação de diversas pastorais (acolhida, ac
 🚧 Em desenvolvimento inicial – Definição de escopo, prototipação e setup do projeto.
 
 ---
+## SUPABASE - SQL 
+Extensões e tipos (ENUMs)
 
-Desenvolvido por **Equipe Tuiuiu Bytes** – Curso de Sistemas de Informação, 2025.
+Tabelas principais
+
+Funções auxiliares (roles helpers)
+
+View (agenda pessoal)
+
+Índices
+
+RLS enable
+
+Policies (por perfil: padre, secretário, coordenador, voluntário, fiel)
+
+Desenvolvido por **Equipe Pythaneiros** – Curso de Sistemas de Informação, 2025.
