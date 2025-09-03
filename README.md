@@ -1,6 +1,6 @@
 # 📅 EscalaMissa
 
-**EscalaMissa** é um sistema Web e Mobile voltado à organização de escalas e eventos religiosos no Santuário de Nossa Senhora Auxiliadora, em Corumbá/MS. A aplicação visa digitalizar e simplificar a gestão das atividades das pastorais, melhorando a comunicação e o engajamento dos voluntários.
+**EscalaMissa** é um sistema Mobile voltado à organização de escalas e eventos religiosos no Santuário de Nossa Senhora Auxiliadora, em Corumbá/MS. A aplicação visa digitalizar e simplificar a gestão das atividades das pastorais, melhorando a comunicação e o engajamento dos voluntários.
 
 ## 🧭 Visão Geral
 
@@ -22,30 +22,29 @@ A organização das missas exige a atuação de diversas pastorais (acolhida, ac
 
 - Cadastro e autenticação por perfil
 - Visualização e seleção de datas disponíveis para serviço
-- Criação e edição de eventos
-- Escalas por pastoral e função
-- Notificações automáticas e lembretes
-- Relatórios mensais e diários
-- Mural de comunicados e formações
-- Exportação de escalas em imagem ou PDF
-- Acesso multiplataforma (Web e Mobile)
+- Gestão de eventos (cadastro, edição e exclusão)
+- Visualização de agenda personalizada por perfil
+- Atribuição de funções específicas aos voluntários
+- Sistema de escalas para voluntários
+- Indicação de disponibilidade por voluntários
+- Notificações automáticas de lembrete para eventos
+- Integração com calendário litúrgico oficial
 
 ## 🎯 Requisitos de Interface
 
 - Interface limpa, intuitiva e responsiva
-- Tela inicial com resumo da agenda pessoal
+- Tela inicial com calendário indicando datas e descrição dos próximos dos eventos
 - Menu de navegação com:
-  - Agenda
+  - Calendário
   - Escalas
   - Eventos Gerais
 - Notificações visíveis para eventos e mudanças de escala
 
 ## 🗂️ Requisitos de Dados
 
-- Cadastro de usuários (nome, e-mail, telefone, perfil)
-- Cadastro de eventos (nome, data, local, descrição, responsáveis)
+- Cadastro de usuários (nome, e-mail, telefone e perfil)
+- Cadastro de eventos (nome, data, local, horário, descrição e responsáveis)
 - Histórico de eventos passados e futuros
-- Dados armazenados em nuvem com acesso via Web e Mobile
 
 ## 🚫 Restrições
 
@@ -56,12 +55,7 @@ A organização das missas exige a atuação de diversas pastorais (acolhida, ac
 
 ## 🛠️ Stack Tecnológico (Sugerido)
 
-> A ser confirmado com a equipe, uma sugestão:
-- Frontend: EXPO GO + REACT NATIVE
-- Backend: Node.js (Express)
-- Banco de Dados: Supabase / POSTGREE
-- Autenticação: Supabase Auth ou JWT
-- Notificações: Firebase Cloud Messaging ou integração com WhatsApp API
+> A ser confirmado com a equipe.
 
 ## 📌 Status
 
