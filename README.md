@@ -54,8 +54,9 @@ A organização das missas exige a atuação de diversas pastorais (acolhida, ac
 - Não há previsão de integração com redes sociais
 
 ## 🛠️ Stack Tecnológico (Sugerido)
-
-> A ser confirmado com a equipe.
+- FlutterFlow
+- Flutter SDK
+- Dart
 
 ## 📌 Status
 
