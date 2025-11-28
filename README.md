@@ -29,7 +29,7 @@
 
 **Escala Missa** é uma solução digital moderna para a organização de escalas de voluntários em paróquias. O objetivo é substituir o uso de planilhas e grupos de WhatsApp por uma plataforma centralizada, intuitiva e acessível em dispositivos móveis e na web.
 
-Construído com **Flutter** e **Supabase**, o projeto oferece uma experiência de usuário fluida e um backend robusto com autenticação e banco de dados em tempo real.
+Construído com **Flutter** , **Supabase** e **Gemini-cli**, o projeto oferece uma experiência de usuário fluida e um backend robusto com autenticação e banco de dados em tempo real.
 
 ### ✨ Funcionalidades
 
@@ -121,9 +121,9 @@ Contribuições são o que tornam a comunidade open source um lugar incrível pa
 
 ## 📜 Licença
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+Distribuído sob a licença MIT.
 
-*(Nota: Adicionar.. um arquivo LICENSE com o texto da licença MIT ao seu repositório.)*
+*Breve*
 
 ---
 
