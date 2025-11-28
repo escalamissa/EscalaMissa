@@ -49,7 +49,7 @@ Construído com **Flutter** e **Supabase**, o projeto oferece uma experiência d
 
 | Tela de Login | Tela Inicial | Agenda |
 | :---: | :---: | :---: |
-| <img src="URL_DA_SUA_IMAGEM_AQUI" alt="Tela de Login" width="200"/> | <img src="URL_DA_SUA_IMAGEM_AQUI" alt="Tela Inicial" width="200"/> | <img src="URL_DA_SUA_IMAGEM_AQUI" alt="Agenda" width="200"/> |
+| <img src="https://i.ibb.co/MxYSDC2C/escala-login.png" alt="Tela de Login" width="200"/> | <img src="https://i.ibb.co/QjcTbH7j/painel-escala.png" alt="Tela Inicial" width="200"/> | <img src="https://i.ibb.co/qLG7cLjp/agenda-escala.png" alt="Agenda" width="200"/> |
 
 ---
 
