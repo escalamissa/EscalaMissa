@@ -6,6 +6,7 @@ import 'package:escala_missa/screens/parish_form_screen.dart';
 import 'package:escala_missa/screens/pastoral_list_screen.dart';
 import 'package:escala_missa/screens/pastoral_form_screen.dart';
 import 'package:escala_missa/models/pastoral.dart';
+import 'package:escala_missa/models/parish.dart';
 import 'package:escala_missa/screens/function_list_screen.dart';
 import 'package:escala_missa/screens/function_form_screen.dart';
 import 'package:escala_missa/screens/event_list_screen.dart';
@@ -155,6 +156,11 @@ final _router = GoRouter(
         GoRoute(
           path: 'parishes/new',
           builder: (context, state) => const ParishFormScreen(),
+        ),
+        GoRoute(
+          path: 'parishes/edit',
+          builder: (context, state) =>
+              ParishFormScreen(parish: state.extra as Parish?),
         ),
         GoRoute(
           path: 'pastorals',

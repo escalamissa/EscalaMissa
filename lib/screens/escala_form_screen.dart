@@ -67,6 +67,26 @@ class _EscalaFormScreenState extends State<EscalaFormScreen> {
       _functions = fetchedFunctions.map((map) => AppFunction.fromMap(map)).toList();
       _volunteers = await _profileService.getProfilesByRoles(['voluntario']);
 
+      // Using a Map to ensure uniqueness based on ID
+      _events = {for (var e in _events) e.id: e}.values.toList();
+      _pastorals = {for (var p in _pastorals) p.id: p}.values.toList();
+      _functions = {for (var f in _functions) f.id: f}.values.toList();
+      _volunteers = {for (var v in _volunteers) v.id: v}.values.toList();
+
+      // After fetching, ensure the selected value exists in the list.
+      // If not, set it to null to prevent the "zero" error.
+      if (_selectedEventId != null && !_events.any((e) => e.id == _selectedEventId)) {
+        _selectedEventId = null;
+      }
+      if (_selectedPastoralId != null && !_pastorals.any((p) => p.id == _selectedPastoralId)) {
+        _selectedPastoralId = null;
+      }
+      if (_selectedFunctionId != null && !_functions.any((f) => f.id == _selectedFunctionId)) {
+        _selectedFunctionId = null;
+      }
+      if (_selectedVoluntarioId != null && !_volunteers.any((v) => v.id == _selectedVoluntarioId)) {
+        _selectedVoluntarioId = null;
+      }
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Erro ao carregar dependências: $e')));

@@ -162,12 +162,7 @@ class _ParishCard extends StatelessWidget {
         trailing:
             Icon(Icons.arrow_forward_ios, size: 16, color: Colors.grey[400]),
         onTap: () {
-          // TODO: Implementar navegação para a tela de edição de paróquia
-          // context.push('/admin/parishes/edit', extra: parish);
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-                content: Text('Tela de edição ainda não implementada.')),
-          );
+          context.push('/admin/parishes/edit', extra: parish);
         },
       ),
     );
