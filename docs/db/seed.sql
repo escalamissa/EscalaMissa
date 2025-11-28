@@ -1,0 +1,2 @@
+-- This file is for data seeding (INSERT statements).
+-- No seed data was found in the dump file.

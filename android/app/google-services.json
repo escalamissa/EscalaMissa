@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1052735402009",
+    "project_id": "escala-msg",
+    "storage_bucket": "escala-msg.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052735402009:android:dcadb49c72be4baa147a88",
+        "android_client_info": {
+          "package_name": "com.example.escala_missa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLdclEsDj2ox6Q1Q2sNI1ifBjtM-7k8TQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
